@@ -14,5 +14,14 @@ fun main(){
 //    val student = Student("Денис", 18)
 //    student.introduce()
 //    student.haveBirthday()
+    //3
+    val ivan = Student("Иван", 19)
+    val denis = Student("Денис", 20)
+    val group = Group("ИСП-231")
+    group.addStudent(ivan)
+    group.addStudent(denis)
+    group.listStudents()
+    group.celebrateBirthdays()
+    group.listStudents()
 
 }
